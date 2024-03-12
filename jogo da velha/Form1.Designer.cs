@@ -45,7 +45,6 @@
             this.lblContX = new System.Windows.Forms.Label();
             this.lblContEmpate = new System.Windows.Forms.Label();
             this.lblContO = new System.Windows.Forms.Label();
-            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn1
@@ -55,7 +54,7 @@
             this.btn1.Size = new System.Drawing.Size(59, 60);
             this.btn1.TabIndex = 0;
             this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.btn1.Click += new System.EventHandler(this.botaoClique);
             // 
             // btn2
             // 
@@ -64,7 +63,7 @@
             this.btn2.Size = new System.Drawing.Size(59, 60);
             this.btn2.TabIndex = 1;
             this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btn2.Click += new System.EventHandler(this.botaoClique);
             // 
             // btn3
             // 
@@ -73,7 +72,7 @@
             this.btn3.Size = new System.Drawing.Size(59, 60);
             this.btn3.TabIndex = 2;
             this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.btn3.Click += new System.EventHandler(this.botaoClique);
             // 
             // btn4
             // 
@@ -82,7 +81,7 @@
             this.btn4.Size = new System.Drawing.Size(59, 60);
             this.btn4.TabIndex = 3;
             this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.btn4.Click += new System.EventHandler(this.botaoClique);
             // 
             // btn5
             // 
@@ -91,7 +90,7 @@
             this.btn5.Size = new System.Drawing.Size(59, 60);
             this.btn5.TabIndex = 4;
             this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            this.btn5.Click += new System.EventHandler(this.botaoClique);
             // 
             // btn6
             // 
@@ -100,7 +99,7 @@
             this.btn6.Size = new System.Drawing.Size(59, 60);
             this.btn6.TabIndex = 5;
             this.btn6.UseVisualStyleBackColor = true;
-            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            this.btn6.Click += new System.EventHandler(this.botaoClique);
             // 
             // btn7
             // 
@@ -109,7 +108,7 @@
             this.btn7.Size = new System.Drawing.Size(59, 60);
             this.btn7.TabIndex = 6;
             this.btn7.UseVisualStyleBackColor = true;
-            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            this.btn7.Click += new System.EventHandler(this.botaoClique);
             // 
             // btn8
             // 
@@ -118,7 +117,7 @@
             this.btn8.Size = new System.Drawing.Size(59, 60);
             this.btn8.TabIndex = 7;
             this.btn8.UseVisualStyleBackColor = true;
-            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            this.btn8.Click += new System.EventHandler(this.botaoClique);
             // 
             // btn9
             // 
@@ -127,7 +126,7 @@
             this.btn9.Size = new System.Drawing.Size(59, 60);
             this.btn9.TabIndex = 8;
             this.btn9.UseVisualStyleBackColor = true;
-            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            this.btn9.Click += new System.EventHandler(this.botaoClique);
             // 
             // label1
             // 
@@ -193,22 +192,11 @@
             this.lblContO.TabIndex = 15;
             this.lblContO.Text = "0";
             // 
-            // btnReset
-            // 
-            this.btnReset.Location = new System.Drawing.Point(220, 461);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(75, 23);
-            this.btnReset.TabIndex = 16;
-            this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(307, 496);
-            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblContO);
             this.Controls.Add(this.lblContEmpate);
             this.Controls.Add(this.lblContX);
@@ -253,7 +241,6 @@
         private System.Windows.Forms.Label lblContX;
         private System.Windows.Forms.Label lblContEmpate;
         private System.Windows.Forms.Label lblContO;
-        private System.Windows.Forms.Button btnReset;
     }
 }
 
