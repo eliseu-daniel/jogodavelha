@@ -92,6 +92,7 @@ namespace jogo_da_velha
                 {
                     c.Text = string.Empty;
                     c.BackColor = SystemColors.Control;
+                    click = 0;
                 }
             }
         }
