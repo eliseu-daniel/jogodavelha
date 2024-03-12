@@ -14,7 +14,7 @@ namespace jogo_da_velha
     {
         string jogador = "X";
 
-        int jogador1 = 0, jogador2 = 0, empate = 0;
+        int jogador1 = 0, jogador2 = 0;
 
         public Form1()
         {
